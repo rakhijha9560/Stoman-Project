@@ -1,0 +1,288 @@
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  padding: 30px;
+
+  .nav-list a {
+    font-family: "Gill Sans", sans-serif;
+    font-size: 1.2rem;
+    padding: 25px 20px;
+  }
+
+  #Dark-logo {
+    width: 9rem;
+    height: auto;
+  }
+
+  .nav-button-box {
+    #btn-1 {
+      color: white;
+      background-color: rgba(59, 63, 246, 0.8);
+      border: none;
+      width: 98px;
+      height: 45px;
+      font-size: 16px;
+      border-radius: 10px;
+
+      &:hover {
+        background-color: rgba(59, 63, 246, 0.9);
+      }
+    }
+
+    .ri-moon-line {
+      font-size: 20px;
+      background-color: #cccccc79;
+      padding: 11px;
+      border-radius: 10px;
+      margin-left: 30px;
+    }
+  }
+}
+
+.dev-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  .ri-arrow-down-circle-line {
+    font-size: 23px;
+    padding: 6px;
+  }
+
+  .dev-text {
+    #h1-text {
+      font-family: "Gill Sans", sans-serif;
+      font-size: 2.2rem;
+      color: #031036db;
+      line-height: 15px;
+    }
+
+    #p1-text {
+      font-family: "Gill Sans", sans-serif;
+      font-size: 1.5rem;
+      font-weight: 500;
+      color: #808080af;
+      line-height: 7px;
+    }
+    #p2-text {
+      font-family: "Gill Sans", sans-serif;
+      font-size: 1.5rem;
+      font-weight: 500;
+      color: #808080af;
+      line-height: 7px;
+    }
+
+    .download-btn-container {
+      padding: 10% 0;
+    }
+    #download-btn {
+      width: 180px;
+      height: 54px;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+      color: gray;
+      font-size: 18px;
+      background-color: #2196f31f;
+      border: 1px solid #0000ff2b;
+      border-radius: 8px;
+      cursor: pointer;
+
+      &:hover {
+        background-color: rgba(59, 63, 246, 0.75);
+
+        color: white;
+      }
+    }
+  }
+}
+
+.Developer-img {
+  width: 700px;
+  height: auto;
+}
+
+#project-heading {
+  text-align: center;
+  font-family: "Gill Sans", sans-serif;
+  font-size: 3rem;
+  font-weight: 600;
+  color: #031036db;
+}
+
+h3 {
+  text-align: center;
+  font-family: "Gill Sans", sans-serif;
+  font-weight: 300;
+  font-size: 1.3rem;
+  color: #000000ab;
+}
+
+.search-input-container {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  align-items: center;
+  padding: 2rem;
+
+  #name {
+    height: 45px;
+    border-radius: 10px;
+    width: 200px;
+    border: solid 1px #8080805e;
+    text-indent: 20px;
+  }
+
+  .ri-search-line {
+    font-size: 20px;
+    background-color: #cccccc79;
+    padding: 11px;
+    border-radius: 10px;
+    margin-right: 10px;
+  }
+
+  ::placeholder {
+    color: rgb(128, 128, 128);
+    font-size: 0.9rem;
+  }
+}
+
+select {
+  height: 45px;
+  width: 150px;
+  padding: 5px 5px;
+  border-radius: 8px;
+  text-indent: 10px;
+  font-size: 14px;
+  border: solid 1px #8080805e;
+}
+
+.projects-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  flex-wrap: wrap;
+
+  .card {
+    flex: 0 0 320px;
+    background: #fff;
+    border-radius: 8px;
+    position: relative;
+    overflow: hidden;
+    margin: 20px;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+    .info {
+      padding: 24px 16px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      font-family: "Gill Sans", sans-serif;
+
+      p {
+        font-size: 19px;
+        color: rgb(30, 56, 81);
+        font-weight: 600;
+      }
+
+      span {
+        color: rgb(30, 56, 81);
+        font-size: 18px;
+      }
+    }
+  }
+
+  .image {
+    text-align: center;
+
+    img {
+      height: 270px;
+      width: 320px;
+      object-fit: cover;
+    }
+  }
+
+  button {
+    background-color: black;
+  }
+}
+
+.project-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  padding: 3.3rem;
+
+  button {
+    color: white;
+    background-color: rgb(99, 102, 241);
+    width: 180px;
+    height: 52px;
+    border: none;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+
+    &:hover {
+      background-color: rgba(63, 66, 234, 1);
+
+      color: white;
+    }
+  }
+}
+
+.contact-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5rem;
+
+  p {
+    color: #031036ee;
+    font-family: "Gill Sans", sans-serif;
+    font-size: 2.2rem;
+    font-weight: 700;
+  }
+
+  ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    column-gap: 32px;
+
+    a {
+      font-size: 40px;
+      background-color: #cccccc27;
+      padding: 15px;
+      border-radius: 10px;
+    }
+  }
+}
+
+.Credit-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+
+  .text {
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.753);
+
+    a {
+      color: #031036ee;
+      font-weight: 500;
+    }
+  }
+}
